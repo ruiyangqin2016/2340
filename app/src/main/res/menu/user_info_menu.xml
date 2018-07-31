@@ -1,0 +1,15 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:keep="@menu/user_info_menu">
+
+    <!-- Settings, should always be in the overflow -->
+
+    <item android:id="@+id/shelterList"
+        android:title= "@string/shelter_list"
+        app:showAsAction="never"/>
+    <item android:id="@+id/shelterMap"
+        android:title="@string/shelters_map"
+        app:showAsAction="never"/>
+
+</menu>
